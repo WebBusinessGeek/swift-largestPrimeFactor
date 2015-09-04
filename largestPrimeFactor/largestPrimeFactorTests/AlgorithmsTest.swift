@@ -17,6 +17,12 @@ class AlgorithmsTest: XCTestCase {
         XCTAssertEqual("This is something", result);
     }
 
+    func testItGetsTheCorrectSolutionToProblem() {
+        let alg = Algorithm();
+        var response = alg.getLargestPrimeFactor(600851475143);
+        XCTAssertEqual(3, response);
+    }
+
     func testItGetsThePrimeFactorsOfAnInteger() {
         let alg = Algorithm();
         var integer = 13195;

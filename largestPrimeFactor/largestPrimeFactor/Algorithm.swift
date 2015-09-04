@@ -13,6 +13,11 @@ class Algorithm  {
         return self.something;
     }
 
+    func getLargestPrimeFactor(value: Int) -> Int {
+        var primeFactors = self.getPrimeFactors(value);
+        return self.getHighestIntegerInArray(primeFactors);
+    }
+
     func getPrimeFactors(value: Int) -> [Int]  {
         var primeArray = [Int]();
         var valueToUse = value;
