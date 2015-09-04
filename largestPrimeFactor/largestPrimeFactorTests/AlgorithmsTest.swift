@@ -20,7 +20,7 @@ class AlgorithmsTest: XCTestCase {
     func testItGetsTheCorrectSolutionToProblem() {
         let alg = Algorithm();
         var response = alg.getLargestPrimeFactor(600851475143);
-        XCTAssertEqual(3, response);
+        XCTAssertEqual(6857, response);
     }
 
     func testItGetsThePrimeFactorsOfAnInteger() {
