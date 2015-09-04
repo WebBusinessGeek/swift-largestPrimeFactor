@@ -28,4 +28,15 @@ class Algorithm  {
         }
         return primeArray;
     }
+
+    func getHighestIntegerInArray(intArray: [Int]) -> Int {
+        var highestValue = 0;
+
+        for value in intArray {
+            if(value > highestValue) {
+                highestValue = value;
+            }
+        }
+        return highestValue;
+    }
 }

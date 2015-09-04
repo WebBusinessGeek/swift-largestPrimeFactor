@@ -26,7 +26,10 @@ class AlgorithmsTest: XCTestCase {
     }
 
     func testItGetsTheHighestIntegerValueInADataCollection() {
-
+        let alg = Algorithm();
+        var arrayToTest = [5, 7, 13, 29];
+        var response = alg.getHighestIntegerInArray(arrayToTest);
+        XCTAssertEqual(29, response);
     }
 
 }
