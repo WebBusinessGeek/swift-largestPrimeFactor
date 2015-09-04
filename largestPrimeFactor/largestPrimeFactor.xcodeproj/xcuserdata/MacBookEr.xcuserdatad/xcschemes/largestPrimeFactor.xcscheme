@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E0E065C28E13B99A58DD0E8A"
+               BuildableName = "largestPrimeFactor.app"
+               BlueprintName = "largestPrimeFactor"
+               ReferencedContainer = "container:largestPrimeFactor.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E0E065C28E13B99A58DD0E8A"
+            BuildableName = "largestPrimeFactor.app"
+            BlueprintName = "largestPrimeFactor"
+            ReferencedContainer = "container:largestPrimeFactor.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
