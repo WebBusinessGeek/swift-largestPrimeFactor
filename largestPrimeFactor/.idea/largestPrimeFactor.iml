@@ -2,6 +2,7 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactor/Algorithm.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactor/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactor/Base.lproj/LaunchScreen.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactor/Base.lproj/Main.storyboard" isTestSource="false" />
@@ -9,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactor/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactor/Requirements.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactor/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactorTests/AlgorithmsTest.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactorTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/largestPrimeFactorTests/largestPrimeFactorTests.swift" isTestSource="false" />
     </content>
